@@ -18,7 +18,7 @@ export const siteConfig = {
 };
 
 export const ambientes = [
-  "Cozinhas planejadas",
+  "Cozinhas",
   "Dormitórios",
   "Closets",
   "Salas e painéis",
