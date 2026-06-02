@@ -44,7 +44,7 @@ export function Portfolio() {
         <p className="eyebrow">Inspiração</p>
         <h2 className="section-title">Ambientes com design, funcionalidade e sofisticação.</h2>
         <p className="section-description">
-          Substitua essas imagens por fotos reais dos projetos do Grupo Lariludi para aumentar autoridade e conversão.
+          Projetos reais. Soluções exclusivas. Ambientes feitos para você.
         </p>
         <div className="portfolio-grid">
           {portfolio.map((item) => (

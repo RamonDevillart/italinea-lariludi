@@ -25,7 +25,20 @@ export const metadata: Metadata = {
     "closet planejado",
     "quarto planejado",
     "sala planejada",
+    "móveis planejados Maricá",
+    "móveis planejados Niterói",
+    "móveis planejados São Gonçalo",
+    "móveis planejados Rio de Janeiro",
+    "Italínea Maricá",
+    "Italínea Niterói",
+    "Italínea São Gonçalo",
+    "Italínea Rio de Janeiro",
   ],
+
+  alternates: {
+    canonical: siteConfig.url,
+  },
+
   openGraph: {
     title: siteConfig.title,
     description: siteConfig.description,
@@ -33,17 +46,57 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     locale: "pt_BR",
     type: "website",
+    images: [
+      {
+        url: `/og-image.webp`,
+        width: 1200,
+        height: 630,
+        alt: "Italínea Grupo Lariludi",
+      },
+    ],
   },
+
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.title,
+    description: siteConfig.description,
+    images: [`/og-image.webp`],
+  },
+  
   robots: {
     index: true,
     follow: true,
+    googleBot: { 
+      index: true, 
+      follow: true, 
+      "max-video-preview": -1, 
+      "max-image-preview": "large", 
+      "max-snippet": -1, 
+    },
   },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const schema = {
+    "@context": "https://schema.org", 
+    "@type": "FurnitureStore", 
+    name: "Italínea Grupo Lariludi", 
+    url: siteConfig.url, 
+    description: "Loja especializada em móveis planejados Italínea.", 
+    areaServed: [ 
+      "Niterói", 
+      "São Gonçalo",
+      "Maricá", 
+      "Rio de Janeiro", 
+    ], 
+    telephone: siteConfig.phone, 
+  };
   return (
     <html lang="pt-BR">
-      <body className={montserrat.variable}>{children}</body>
+      <body className={montserrat.variable}>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema), }} />
+        {children}
+        </body>
     </html>
   );
 }

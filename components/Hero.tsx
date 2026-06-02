@@ -1,4 +1,5 @@
 import { siteConfig } from "@/data/site";
+import { HeroCarousel } from "./HeroCarousel";
 
 export function Hero() {
   const whatsappUrl = `https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent("Olá! Quero falar com a Italínea Grupo Lariludi.")}`;
@@ -23,6 +24,8 @@ export function Hero() {
             </a>
           </div>
         </div>
+
+        <HeroCarousel />
 
         {/* <aside className="hero-card" aria-label="Destaques">
           <strong>100%</strong>

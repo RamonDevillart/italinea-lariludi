@@ -1,9 +1,9 @@
 export const siteConfig = {
   name: "Italínea Grupo Lariludi",
-  url: "https://www.seudominio.com.br",
+  url: "https://italinea-lariludi.netlify.app/",
   title: "Italínea Grupo Lariludi | Móveis Planejados",
   description:
-    "Projetos de móveis planejados para cozinhas, quartos, closets, salas, banheiros e ambientes corporativos  Italínea.",
+    "Projetos de móveis planejados para cozinhas, quartos, closets, salas, banheiros e ambientes corporativos Italínea.",
   whatsapp: "5521985540484",
   instagram: "https://www.instagram.com/",
   address: ["Rod. Amaral Peixoto - Km 22,5 - S. José do Imbassaí",
@@ -13,7 +13,7 @@ export const siteConfig = {
     "https://www.google.com/maps?vet=10CAAQoqAOahcKEwjY6srZzeiUAxUAAAAAHQAAAAAQDA..i&pvq=Cg0vZy8xMWZud2R5YjZzIh0KF2l0YWxpbmVhIGdydXBvIGxhcmlsdWRpEAIYAw&lqi=ChdpdGFsaW5lYSBncnVwbyBsYXJpbHVkaSIDiAEBSNjRurbTrYCACFovEAAQARACGAAYARgCIhdpdGFsaW5lYSBncnVwbyBsYXJpbHVkaSoICAIQABABEAKSAQ9mdXJuaXR1cmVfc3RvcmU&fvr=1&cs=0&um=1&ie=UTF-8&fb=1&gl=br&sa=X&ftid=0x998dcb2d9aefc9:0x9a0d200d52d3b2f4"
   ],
   city: "Maricá, RJ",
-  email: "contato@seudominio.com.br",
+  email: "",
   phone: [ {tel: "(21) 2636-8109", loja: "Loja São José"}, {tel: "(21) 3732-2874", loja: "Loja Itaipuaçu"} ],
 };
 
@@ -49,21 +49,21 @@ export const portfolio = [
   {
     title: "Cozinha",
     image:
-      "/images/cozinha.webp",
+      "/images/cozinha-1.webp",
   },
   {
     title: "Quarto",
     image:
-      "/images/quarto.webp",
+      "/images/quarto-1.webp",
   },
   {
     title: "Home office",
     image:
-      "/images/home-office.webp",
+      "/images/home-office-1.webp",
   },
   {
     title: "Sala",
     image:
-      "/images/sala.webp",
+      "/images/sala-1.webp",
   },
 ];
