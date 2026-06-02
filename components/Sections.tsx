@@ -65,7 +65,7 @@ export function CTA() {
     <section id="contato" className="section cta">
       <div className="container">
         <p className="eyebrow" style={{ color: "rgba(255,255,255,.72)" }}>Solicite seu orçamento</p>
-        <h2 className="section-title">Vamos deixar a sua mais bonita e feliz.</h2>
+        <h2 className="section-title">Vamos deixar a sua casa mais bonita e feliz.</h2>
         <h2 className="section-title-mid">Venha planejar seu próximo ambiente!</h2>
         <p className="section-description">
           Fale com um especialista da Italínea Grupo Lariludi e receba atendimento personalizado para tornar o seu projeto uma realidade.
