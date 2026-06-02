@@ -19,7 +19,7 @@ export const siteConfig = {
 
 export const ambientes = [
   "Cozinhas",
-  "Dormitórios",
+  "Quartos",
   "Closets",
   "Salas e painéis",
   "Home office",

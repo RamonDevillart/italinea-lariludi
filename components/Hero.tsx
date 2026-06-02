@@ -12,7 +12,7 @@ export function Hero() {
           <p>Somos a maior rede de lojas de móveis planejados da América Latina. Mais do que isso, somos especialistas em realizar projetos de vida feliz.</p>
           <h1>Projetos sob medida para transformar seu ambiente.</h1>
           <p>
-            Cozinhas, dormitórios, closets, salas e ambientes corporativos planejados com elegância,
+            Cozinhas, quartos, closets, salas e ambientes corporativos planejados com elegância,
             funcionalidade e atendimento exclusivo do Grupo Lariludi.
           </p>
           <div className="hero-actions">
