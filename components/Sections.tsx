@@ -68,7 +68,7 @@ export function CTA() {
         <h2 className="section-title">Vamos deixar a sua casa mais bonita e feliz.</h2>
         <h2 className="section-title-mid">Venha planejar seu próximo ambiente!</h2>
         <p className="section-description">
-          Fale com um especialista da Italínea Grupo Lariludi e receba atendimento personalizado para tornar o seu projeto uma realidade.
+          Fale com um consultor da Italínea Grupo Lariludi e receba atendimento personalizado para tornar o seu projeto uma realidade.
         </p>
         <a className="btn btn-whatsapp" href={whatsappUrl} target="_blank" rel="noreferrer">
           Chamar no WhatsApp
