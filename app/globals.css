@@ -68,6 +68,13 @@ img {
   letter-spacing: -0.04em;
 }
 
+.section-title-mid {
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  line-height: 1.2;
+  margin-bottom: 18px;
+  letter-spacing: -0.04em;
+}
+
 .section-description {
   color: var(--text-secondary);
   max-width: 720px;

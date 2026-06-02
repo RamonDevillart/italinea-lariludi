@@ -3,7 +3,7 @@ export const siteConfig = {
   url: "https://www.seudominio.com.br",
   title: "Italínea Grupo Lariludi | Móveis Planejados",
   description:
-    "Projetos de móveis planejados para cozinhas, quartos, closets, salas, banheiros e ambientes corporativos com padrão Italínea.",
+    "Projetos de móveis planejados para cozinhas, quartos, closets, salas, banheiros e ambientes corporativos  Italínea.",
   whatsapp: "5521985540484",
   instagram: "https://www.instagram.com/",
   address: ["Rod. Amaral Peixoto - Km 22,5 - S. José do Imbassaí",
@@ -32,7 +32,7 @@ export const diferenciais = [
     description: "Cada ambiente é pensado de acordo com sua rotina, medidas e estilo de vida.",
   },
   {
-    title: "Padrão Italínea",
+    title: "Produtos de qualidade",
     description: "Móveis planejados com acabamento, tecnologia e soluções inteligentes para o dia a dia.",
   },
   {
@@ -47,12 +47,12 @@ export const diferenciais = [
 
 export const portfolio = [
   {
-    title: "Cozinha planejada",
+    title: "Cozinha",
     image:
       "/images/cozinha.webp",
   },
   {
-    title: "Dormitório planejado",
+    title: "Quarto",
     image:
       "/images/quarto.webp",
   },
@@ -62,7 +62,7 @@ export const portfolio = [
       "/images/home-office.webp",
   },
   {
-    title: "Sala planejada",
+    title: "Sala",
     image:
       "/images/sala.webp",
   },

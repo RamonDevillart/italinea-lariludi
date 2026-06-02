@@ -65,9 +65,10 @@ export function CTA() {
     <section id="contato" className="section cta">
       <div className="container">
         <p className="eyebrow" style={{ color: "rgba(255,255,255,.72)" }}>Solicite seu orçamento</p>
-        <h2 className="section-title">Vamos planejar seu próximo ambiente?</h2>
+        <h2 className="section-title">Vamos deixar a sua mais bonita e feliz.</h2>
+        <h2 className="section-title-mid">Venha planejar seu próximo ambiente!</h2>
         <p className="section-description">
-          Fale com a equipe Italínea Grupo Lariludi e receba atendimento para criar um projeto sob medida.
+          Fale com um especialista da Italínea Grupo Lariludi e receba atendimento personalizado para tornar o seu projeto uma realidade.
         </p>
         <a className="btn btn-whatsapp" href={whatsappUrl} target="_blank" rel="noreferrer">
           Chamar no WhatsApp
@@ -84,7 +85,7 @@ export function Footer() {
       <div className="container footer-grid">
         <div>
           <h3>Italínea Grupo Lariludi</h3>
-          <p>Móveis planejados com projeto personalizado e padrão Italínea.</p>
+          <p>Móveis planejados Italínea.</p>
         </div>
         <div>
           <h3>Contato</h3>

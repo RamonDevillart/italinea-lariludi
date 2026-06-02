@@ -7,7 +7,8 @@ export function Hero() {
     <section id="inicio" className="hero">
       <div className="container hero-grid">
         <div>
-          <p className="eyebrow">Móveis planejados com padrão Italínea</p>
+          <p className="eyebrow">Móveis planejados Italínea</p>
+          <p>Somos a maior rede de lojas de móveis planejados da América Latina. Mais do que isso, somos especialistas em realizar projetos de vida feliz.</p>
           <h1>Projetos sob medida para transformar seu ambiente.</h1>
           <p>
             Cozinhas, dormitórios, closets, salas e ambientes corporativos planejados com elegância,
